@@ -1,0 +1,24 @@
+//DSD Lab Exercise 1 Part 1
+module MUX2to1x8(x0, x1, x2, x3, x4, x5, x6, x7, y0, y1, y2, y3, y4, y5, y6, y7, m0, m1, m2, m3, m4, m5, m6, m7, s);
+
+input x0, x1, x2, x3, x4, x5, x6, x7, y0, y1, y2, y3, y4, y5, y6, y7, s;
+output m0, m1, m2, m3, m4, m5, m6, m7;
+
+/*
+  Input  |        Output
+    s    | m0  m1  m2  m3  m4  m5  m6  m7
+------------------------------------------
+    0    | x0  x1  x2  x3  x4  x5  x6  x7
+	 1    | y0  y1  y2  y3  y4  y5  y6  y7
+	 
+*/
+assign m0 = ~sx0 | sy0;
+assign m1 = ~sx1 | sy1;
+assign m2 = ~sx2 | sy2;
+assign m3 = ~sx3 | sy3;
+assign m4 = ~sx4 | sy4;
+assign m5 = ~sx5 | sy5;
+assign m6 = ~sx6 | sy6;
+assign m7 = ~sx7 | sy7;
+
+endmodule

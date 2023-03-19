@@ -1,0 +1,296 @@
+$comment
+	File created using the following command:
+		vcd file AsynBinUp.msim.vcd -direction
+$end
+$date
+	Sun Jan 16 23:27:00 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module AsynBinUp_vlg_vec_tst $end
+$var reg 1 ! B1 $end
+$var reg 1 " SW0 $end
+$var reg 1 # SW1 $end
+$var reg 1 $ SW2 $end
+$var wire 1 % L1 $end
+$var wire 1 & L2 $end
+$var wire 1 ' L3 $end
+$var wire 1 ( L4 $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / L1~output_o $end
+$var wire 1 0 L2~output_o $end
+$var wire 1 1 L3~output_o $end
+$var wire 1 2 L4~output_o $end
+$var wire 1 3 SW2~input_o $end
+$var wire 1 4 SW0~input_o $end
+$var wire 1 5 inst~1_combout $end
+$var wire 1 6 B1~input_o $end
+$var wire 1 7 inst~3_combout $end
+$var wire 1 8 inst~0_combout $end
+$var wire 1 9 inst~_emulated_q $end
+$var wire 1 : inst~2_combout $end
+$var wire 1 ; SW1~input_o $end
+$var wire 1 < inst2~combout $end
+$var wire 1 = inst11~0_combout $end
+$var wire 1 > inst11~q $end
+$var wire 1 ? inst3~combout $end
+$var wire 1 @ inst15~0_combout $end
+$var wire 1 A inst15~q $end
+$var wire 1 B inst4~combout $end
+$var wire 1 C inst20~0_combout $end
+$var wire 1 D inst20~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+1$
+0%
+0&
+0'
+0(
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+02
+13
+04
+05
+06
+17
+18
+09
+0:
+1;
+1<
+1=
+0>
+1?
+1@
+0A
+1B
+1C
+0D
+$end
+#10000
+1"
+14
+08
+#500000
+1!
+16
+#1000000
+0!
+06
+19
+1:
+1/
+1%
+0<
+07
+#1500000
+1!
+16
+#2000000
+0!
+06
+09
+0:
+0/
+0%
+1<
+17
+1>
+10
+1&
+0?
+0=
+#2500000
+1!
+16
+#3000000
+0!
+06
+19
+1:
+1/
+1%
+0<
+07
+#3500000
+1!
+16
+#4000000
+0!
+06
+09
+0:
+0/
+0%
+1<
+17
+0>
+00
+0&
+1?
+1=
+1A
+11
+1'
+0B
+0@
+#4500000
+1!
+16
+#5000000
+0!
+06
+19
+1:
+1/
+1%
+0<
+07
+#5500000
+1!
+16
+#6000000
+0!
+06
+09
+0:
+0/
+0%
+1<
+17
+1>
+10
+1&
+0?
+0=
+#6500000
+1!
+16
+#6880000
+0"
+04
+18
+0>
+0A
+01
+00
+0&
+0'
+1?
+1=
+1B
+1@
+#7000000
+0!
+06
+#7500000
+1!
+16
+#8000000
+0!
+06
+#8500000
+1!
+16
+#9000000
+0!
+06
+#9500000
+1!
+16
+#10000000
+0!
+06
+#10500000
+1!
+16
+#11000000
+0!
+06
+#11500000
+1!
+16
+#12000000
+0!
+06
+#12500000
+1!
+16
+#13000000
+0!
+06
+#13120000
+1"
+14
+08
+#13500000
+1!
+16
+#14000000
+0!
+06
+19
+1:
+1/
+1%
+0<
+07
+#14500000
+1!
+16
+#15000000
+0!
+06
+09
+0:
+0/
+0%
+1<
+17
+1>
+10
+1&
+0?
+0=
+#15500000
+1!
+16
+#16000000
+0!
+06
+19
+1:
+1/
+1%
+0<
+07
+#16500000
+1!
+16
+#17000000

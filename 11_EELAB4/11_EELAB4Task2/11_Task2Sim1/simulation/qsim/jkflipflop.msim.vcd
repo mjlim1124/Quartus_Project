@@ -1,0 +1,209 @@
+$comment
+	File created using the following command:
+		vcd file jkflipflop.msim.vcd -direction
+$end
+$date
+	Sun Dec 26 17:07:19 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module jkflipflop_vlg_vec_tst $end
+$var reg 1 ! A1 $end
+$var reg 1 " A2 $end
+$var reg 1 # CLK $end
+$var wire 1 $ F6 $end
+$var wire 1 % F7 $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , F6~output_o $end
+$var wire 1 - F7~output_o $end
+$var wire 1 . A2~input_o $end
+$var wire 1 / CLK~input_o $end
+$var wire 1 0 A1~input_o $end
+$var wire 1 1 inst~combout $end
+$var wire 1 2 inst2~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+x$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+x,
+x-
+0.
+1/
+00
+x1
+x2
+$end
+#500000
+0#
+0/
+#1000000
+1"
+1#
+1.
+1/
+11
+12
+1-
+0,
+0$
+1%
+#1500000
+0#
+0/
+#2000000
+1!
+0"
+1#
+10
+0.
+1/
+01
+1,
+1$
+02
+0-
+0%
+#2500000
+0#
+0/
+#3000000
+1"
+1#
+1.
+1/
+12
+1-
+1%
+#3500000
+0#
+0/
+02
+0-
+0%
+#4000000
+1#
+1/
+12
+1-
+1%
+#4500000
+0#
+0/
+02
+0-
+0%
+#5000000
+1#
+1/
+12
+1-
+1%
+#5500000
+0#
+0/
+02
+0-
+0%
+#6000000
+0!
+0"
+1#
+00
+0.
+1/
+#6500000
+0#
+0/
+#7000000
+1"
+1#
+1.
+1/
+11
+12
+1-
+0,
+0$
+1%
+#7500000
+0#
+0/
+#8000000
+1!
+0"
+1#
+10
+0.
+1/
+01
+1,
+1$
+02
+0-
+0%
+#8500000
+0#
+0/
+#9000000
+1"
+1#
+1.
+1/
+12
+1-
+1%
+#9500000
+0#
+0/
+02
+0-
+0%
+#10000000
+1#
+1/
+12
+1-
+1%
+#10500000
+0#
+0/
+02
+0-
+0%
+#11000000
+1#
+1/
+12
+1-
+1%
+#11500000
+0#
+0/
+02
+0-
+0%
+#12000000

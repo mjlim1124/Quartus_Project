@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SO[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Mode",
+					"strict" : false
+				},
+				{
+					"name" : "IN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "IN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SI",
+					"strict" : false
+				},
+				{
+					"name" : "ShiftDR",
+					"strict" : false
+				},
+				{
+					"name" : "ClockDR",
+					"strict" : false
+				},
+				{
+					"name" : "UpdateDR",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

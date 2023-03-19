@@ -1,0 +1,81 @@
+module Traffic (C, clock, reset, HG, HY, HR, FG, FY, FR);
+
+input C, clock, reset;
+output reg HG, HY, HR, FG, FY, FR;
+reg ST; //,TS, TL;
+wire TS, TL;
+reg [1:0] NS, PS;
+reg [2:0] count;
+parameter S0=2'b00, S1=2'b01, S2=2'b10, S3=2'b11;
+
+//Timer
+always @(posedge clock, posedge ST)
+begin
+if(ST) count=3'd0;
+else count=count+1;
+//if(count == 3'b011)TS=1'b1;
+//else if(count ==3'b111)TL=1'b1;
+end
+assign TL=(count == 3'b000);
+assign TS=(count == 3'b011);
+
+//Next State Block
+always @(PS,TL,TS, C)
+begin
+case(PS)
+S0: if (!TL|| !C) NS = S0; 	else NS = S1;
+S1: if (!TS) 		NS = S1; 	else NS = S2;
+S2: if (C && !TL) 	NS = S2; 	else NS = S3;
+S3: if (!TS) 		NS = S3; 	else NS = S0;
+endcase
+end
+
+//Flip Flop Block
+always @(posedge clk, posedge ST)
+begin
+if(ST)
+PS = S0;
+else
+PS = NS;
+end
+
+//Present State Block
+always @(PS, TL, TS, C)
+begin 
+HG=0; HY=0; HR=0; FG=0; FY=0; FR=0;
+case(PS) 
+S0: 
+begin 
+if(!tl || !c) st=0;
+else st=1; HG=1; FR=1; 
+end
+
+S1: 
+begin 
+if(!ts) st=0;
+else st=1; HY=1; FR=1; 
+end
+
+S2: 
+begin 
+if(!tl && c) st=0;
+else st=1; FG=1; HR=1; 
+end
+
+S3: 
+begin 
+if(!ts) st=0;
+else st=1; FY=1; HR=1; 
+end
+
+endcase
+end
+
+endmodule
+/*
+always @(PS)
+case (PS)
+SO: HG = 1'b1;
+S1: H
+S2:
+S3： 

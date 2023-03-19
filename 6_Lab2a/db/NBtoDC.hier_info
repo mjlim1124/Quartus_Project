@@ -1,0 +1,101 @@
+|NBtoDC
+v[0] => v[0].IN3
+v[1] => v[1].IN3
+v[2] => v[2].IN3
+v[3] => v[3].IN3
+N => N.IN1
+D1[6] <= cirB:comb_5.port1
+D1[5] <= cirB:comb_5.port1
+D1[4] <= cirB:comb_5.port1
+D1[3] <= cirB:comb_5.port1
+D1[2] <= cirB:comb_5.port1
+D1[1] <= cirB:comb_5.port1
+D1[0] <= cirB:comb_5.port1
+D0[6] <= d7seg:comb_6.port1
+D0[5] <= d7seg:comb_6.port1
+D0[4] <= d7seg:comb_6.port1
+D0[3] <= d7seg:comb_6.port1
+D0[2] <= d7seg:comb_6.port1
+D0[1] <= d7seg:comb_6.port1
+D0[0] <= d7seg:comb_6.port1
+
+
+|NBtoDC|cirA:comb_3
+x[0] => y.IN1
+x[1] => y.IN0
+x[1] => y.IN0
+x[1] => y.IN0
+x[2] => y.IN1
+x[2] => y.IN1
+x[2] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NBtoDC|cprt:comb_4
+a[0] => LessThan0.IN8
+a[1] => LessThan0.IN7
+a[2] => LessThan0.IN6
+a[3] => LessThan0.IN5
+z <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NBtoDC|cirB:comb_5
+s => t[1].DATAIN
+s => t[2].DATAIN
+t[6] <= <GND>
+t[5] <= <GND>
+t[4] <= <GND>
+t[3] <= <GND>
+t[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+t[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+t[0] <= <GND>
+
+
+|NBtoDC|mux21:mux3
+sel => O.IN0
+sel => O.IN0
+I1 => O.IN1
+I0 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NBtoDC|mux21:mux2
+sel => O.IN0
+sel => O.IN0
+I1 => O.IN1
+I0 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NBtoDC|mux21:mux1
+sel => O.IN0
+sel => O.IN0
+I1 => O.IN1
+I0 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NBtoDC|mux21:mux0
+sel => O.IN0
+sel => O.IN0
+I1 => O.IN1
+I0 => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NBtoDC|d7seg:comb_6
+m[0] => Decoder0.IN3
+m[1] => Decoder0.IN2
+m[2] => Decoder0.IN1
+m[3] => Decoder0.IN0
+d[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+d[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+d[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+d[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+d[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

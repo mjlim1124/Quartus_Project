@@ -1,0 +1,20 @@
+module OR4to1(En,s,w,f);
+
+input En;
+input [1:0]s;
+input [3:0]w;
+output f;
+
+wire [0:3]y;
+wire [0:3]a;
+
+Dec2to4(En, s, y);
+
+and a0(a[0],w[0],y[0]);
+and a1(a[1],w[1],y[1]);
+and a2(a[2],w[2],y[2]);
+and a3(a[3],w[3],y[3]);
+
+or (f, a[0], a[1], a[2], a[3],)
+
+endmodule

@@ -1,0 +1,8 @@
+//New Circuit
+
+module New (N);
+output [3:0]N;
+assign N = 4'b1010;
+
+endmodule
+

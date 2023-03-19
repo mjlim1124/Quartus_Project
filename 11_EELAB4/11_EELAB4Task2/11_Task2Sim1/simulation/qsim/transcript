@@ -1,0 +1,34 @@
+# do jkflipflop.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:07:18 on Dec 26,2021
+# vlog -work work jkflipflop.vo 
+# -- Compiling module jkflipflop
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	jkflipflop
+# End time: 17:07:18 on Dec 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:07:19 on Dec 26,2021
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module jkflipflop_vlg_vec_tst
+# 
+# Top level modules:
+# 	jkflipflop_vlg_vec_tst
+# End time: 17:07:19 on Dec 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.jkflipflop_vlg_vec_tst 
+# Start time: 17:07:19 on Dec 26,2021
+# Loading work.jkflipflop_vlg_vec_tst
+# Loading work.jkflipflop
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#26
+# ** Note: $finish    : Waveform.vwf.vt(51)
+#    Time: 12 us  Iteration: 0  Instance: /jkflipflop_vlg_vec_tst
+# End time: 17:07:20 on Dec 26,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

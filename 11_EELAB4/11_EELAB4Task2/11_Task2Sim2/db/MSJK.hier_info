@@ -1,0 +1,13 @@
+|MSJK
+F1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst4.IN0
+CLK => inst9.IN0
+CLK => inst3.IN2
+K => inst4.IN1
+Clear => inst15.IN2
+J => inst3.IN1
+F2 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+F6 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+F7 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

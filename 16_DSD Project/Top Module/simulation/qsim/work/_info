@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus_Project/16_DSD Project/Top Module/simulation/qsim
+vhard_block
+Z1 !s110 1644734926
+!i10b 1
+!s100 ]CEfPPkk5_HkA??7=2Roj0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I00H:@N[J1lNjG^:^H^mK_0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1644734922
+Z5 8top_module.vo
+Z6 Ftop_module.vo
+!i122 60
+L0 1492 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1644734926.000000
+Z9 !s107 top_module.vo|
+Z10 !s90 -work|work|top_module.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vtop_module
+R1
+!i10b 1
+!s100 d8iYYn_Z^`Z?:^`20_SGm1
+R2
+Io0E[BKmCCS<8j2FJLo29<0
+R3
+R0
+R4
+R5
+R6
+!i122 60
+L0 32 1459
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtop_module_vlg_vec_tst
+R1
+!i10b 1
+!s100 R8^BzVQ05]TGMURO2=J3k1
+R2
+I^F5WAg0MGzSF62><cE3o=1
+R3
+R0
+w1644734921
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 61
+L0 30 107
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

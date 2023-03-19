@@ -1,0 +1,162 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/26/2021 23:23:48"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          changing_char
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module changing_char_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [2:0] ch_a;
+reg [2:0] ch_b;
+reg [2:0] ch_c;
+reg [2:0] ch_d;
+reg [2:0] ch_e;
+reg [2:0] selc;
+// wires                                               
+wire [6:0] dp0;
+wire [6:0] dp1;
+wire [6:0] dp2;
+wire [6:0] dp3;
+wire [6:0] dp4;
+
+// assign statements (if any)                          
+changing_char i1 (
+// port map - connection between master ports and signals/registers   
+	.ch_a(ch_a),
+	.ch_b(ch_b),
+	.ch_c(ch_c),
+	.ch_d(ch_d),
+	.ch_e(ch_e),
+	.dp0(dp0),
+	.dp1(dp1),
+	.dp2(dp2),
+	.dp3(dp3),
+	.dp4(dp4),
+	.selc(selc)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// ch_a[ 2 ]
+initial
+begin
+	ch_a[2] = 1'b0;
+end 
+// ch_a[ 1 ]
+initial
+begin
+	ch_a[1] = 1'b0;
+end 
+// ch_a[ 0 ]
+initial
+begin
+	ch_a[0] = 1'b0;
+end 
+// ch_b[ 2 ]
+initial
+begin
+	ch_b[2] = 1'b0;
+end 
+// ch_b[ 1 ]
+initial
+begin
+	ch_b[1] = 1'b0;
+end 
+// ch_b[ 0 ]
+initial
+begin
+	ch_b[0] = 1'b1;
+end 
+// ch_c[ 2 ]
+initial
+begin
+	ch_c[2] = 1'b0;
+end 
+// ch_c[ 1 ]
+initial
+begin
+	ch_c[1] = 1'b1;
+end 
+// ch_c[ 0 ]
+initial
+begin
+	ch_c[0] = 1'b0;
+end 
+// ch_d[ 2 ]
+initial
+begin
+	ch_d[2] = 1'b0;
+end 
+// ch_d[ 1 ]
+initial
+begin
+	ch_d[1] = 1'b1;
+end 
+// ch_d[ 0 ]
+initial
+begin
+	ch_d[0] = 1'b0;
+end 
+// ch_e[ 2 ]
+initial
+begin
+	ch_e[2] = 1'b0;
+end 
+// ch_e[ 1 ]
+initial
+begin
+	ch_e[1] = 1'b1;
+end 
+// ch_e[ 0 ]
+initial
+begin
+	ch_e[0] = 1'b1;
+end 
+// selc[ 2 ]
+always
+begin
+	selc[2] = 1'b0;
+	selc[2] = #500000 1'b1;
+	#500000;
+end 
+// selc[ 1 ]
+always
+begin
+	selc[1] = 1'b0;
+	selc[1] = #250000 1'b1;
+	#250000;
+end 
+// selc[ 0 ]
+always
+begin
+	selc[0] = 1'b0;
+	selc[0] = #125000 1'b1;
+	#125000;
+end 
+endmodule
+

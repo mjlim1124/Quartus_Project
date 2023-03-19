@@ -1,0 +1,14 @@
+module behav(a,b,f);
+
+input a,b;
+output f;
+
+always @(*)
+	case({A,B})
+	2'b00 : f = 1'b0;
+	2'b01 : f = 1'b1;
+	2'b10 : f = 1'b1;
+	2'b11 : f = 1'b0;
+	endcase
+	
+endmodule

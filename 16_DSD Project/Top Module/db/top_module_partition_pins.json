@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "mar_reg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mar_reg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mar_reg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "gom_reg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gom_reg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gom_reg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gom_reg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gom_reg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "score[0]",
+					"strict" : false
+				},
+				{
+					"name" : "score[1]",
+					"strict" : false
+				},
+				{
+					"name" : "score[2]",
+					"strict" : false
+				},
+				{
+					"name" : "score[3]",
+					"strict" : false
+				},
+				{
+					"name" : "score[4]",
+					"strict" : false
+				},
+				{
+					"name" : "score[5]",
+					"strict" : false
+				},
+				{
+					"name" : "score[6]",
+					"strict" : false
+				},
+				{
+					"name" : "R",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "S",
+					"strict" : false
+				},
+				{
+					"name" : "J",
+					"strict" : false
+				},
+				{
+					"name" : "count_rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

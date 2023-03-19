@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus_Project/3_Lab2.1/simulation/qsim
+vDecoder_7_Seg
+Z1 !s110 1635231412
+!i10b 1
+!s100 1KgKGRYfhN[4P[E><8;9A0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>z_;n?a>G`[kM:KUUY4Mc0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1635231410
+Z5 8Decoder_7_Seg.vo
+Z6 FDecoder_7_Seg.vo
+!i122 2
+L0 32 255
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1635231411.000000
+Z9 !s107 Decoder_7_Seg.vo|
+Z10 !s90 -work|work|Decoder_7_Seg.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@decoder_7_@seg
+vDecoder_7_Seg_vlg_vec_tst
+R1
+!i10b 1
+!s100 @Glh[kngk_AIPkbgG7E>V2
+R2
+IGf1M6:Q_NK::9125@1ZhZ3
+R3
+R0
+w1635231408
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 39
+R7
+r1
+!s85 0
+31
+!s108 1635231412.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@decoder_7_@seg_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 F[T@?RO865CV7g>fHDYYJ2
+R2
+I23@PgzGZiI:b=[[WS6mV[2
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 288 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

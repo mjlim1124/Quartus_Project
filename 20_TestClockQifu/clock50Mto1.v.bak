@@ -1,0 +1,15 @@
+module clock50Mto1(input clk,output reg out);
+
+reg [24:0] count;
+
+always@(posedge clk) 
+	begin
+		count <= count + 1;
+		if (count==250000000) 
+		begin
+			out <= ~out;
+			count <= 0;
+		end
+	end
+	
+endmodule

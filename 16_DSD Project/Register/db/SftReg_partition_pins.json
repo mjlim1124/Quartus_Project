@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "q[8]",
+					"strict" : false
+				},
+				{
+					"name" : "q[9]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[0]",
+					"strict" : false
+				},
+				{
+					"name" : "preset",
+					"strict" : false
+				},
+				{
+					"name" : "serial",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				},
+				{
+					"name" : "clr",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[1]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[2]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[3]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[7]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[8]",
+					"strict" : false
+				},
+				{
+					"name" : "loadval[9]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

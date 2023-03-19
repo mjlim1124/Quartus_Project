@@ -1,0 +1,8 @@
+module NBtoDC();
+
+input;
+output;
+
+
+
+endmodule

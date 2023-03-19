@@ -1,0 +1,40 @@
+|h3to8
+EN => EN.IN1
+X[0] => X[0].IN2
+X[1] => X[1].IN2
+O[7] << if2to4:D1.port2
+O[6] << if2to4:D1.port2
+O[5] << if2to4:D1.port2
+O[4] << if2to4:D1.port2
+O[3] << if2to4:D0.port2
+O[2] << if2to4:D0.port2
+O[1] << if2to4:D0.port2
+O[0] << if2to4:D0.port2
+
+
+|h3to8|if2to4:D0
+en => o.OUTPUTSELECT
+en => o.OUTPUTSELECT
+en => o.OUTPUTSELECT
+en => o.OUTPUTSELECT
+x[0] => Decoder0.IN1
+x[1] => Decoder0.IN0
+o[3] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[0] <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|h3to8|if2to4:D1
+en => o.OUTPUTSELECT
+en => o.OUTPUTSELECT
+en => o.OUTPUTSELECT
+en => o.OUTPUTSELECT
+x[0] => Decoder0.IN1
+x[1] => Decoder0.IN0
+o[3] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o.DB_MAX_OUTPUT_PORT_TYPE
+o[0] <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

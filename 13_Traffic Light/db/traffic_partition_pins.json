@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HG",
+					"strict" : false
+				},
+				{
+					"name" : "HY",
+					"strict" : false
+				},
+				{
+					"name" : "HR",
+					"strict" : false
+				},
+				{
+					"name" : "FG",
+					"strict" : false
+				},
+				{
+					"name" : "FY",
+					"strict" : false
+				},
+				{
+					"name" : "FR",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/Quartus_Project/0_Test/Sub Module Testing/ModuleTest.v
+source_file = 1, D:/Quartus_Project/0_Test/Sub Module Testing/Waveform.vwf
+source_file = 1, D:/Quartus_Project/0_Test/Sub Module Testing/db/ModuleTest.cbx.xml
+design_name = ModuleTest
+instance = comp, \z~output , z~output, ModuleTest, 1
+instance = comp, \in~input , in~input, ModuleTest, 1
+instance = comp, \i[2]~input , i[2]~input, ModuleTest, 1
+instance = comp, \i[3]~input , i[3]~input, ModuleTest, 1
+instance = comp, \i[1]~input , i[1]~input, ModuleTest, 1
+instance = comp, \z~0 , z~0, ModuleTest, 1
+instance = comp, \i[0]~input , i[0]~input, ModuleTest, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

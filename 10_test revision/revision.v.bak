@@ -1,0 +1,10 @@
+module revision(A,B,F);
+
+input A, B;
+output F;
+
+
+
+
+
+endmodule

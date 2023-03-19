@@ -1,0 +1,1 @@
+This is my Intel Quartus Projects during my 2nd Year in MJIIT (Digital System Design).

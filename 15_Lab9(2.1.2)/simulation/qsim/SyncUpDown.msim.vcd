@@ -1,0 +1,230 @@
+$comment
+	File created using the following command:
+		vcd file SyncUpDown.msim.vcd -direction
+$end
+$date
+	Sun Jan 16 21:50:47 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module SyncUpDown_vlg_vec_tst $end
+$var reg 1 ! A1 $end
+$var reg 1 " A2 $end
+$var reg 1 # B1 $end
+$var reg 1 $ B2 $end
+$var wire 1 % F1 $end
+$var wire 1 & F2 $end
+$var wire 1 ' F3 $end
+$var wire 1 ( F4 $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / F1~output_o $end
+$var wire 1 0 F2~output_o $end
+$var wire 1 1 F3~output_o $end
+$var wire 1 2 F4~output_o $end
+$var wire 1 3 A2~input_o $end
+$var wire 1 4 B2~input_o $end
+$var wire 1 5 inst12~1_combout $end
+$var wire 1 6 B1~input_o $end
+$var wire 1 7 B1~inputclkctrl_outclk $end
+$var wire 1 8 inst12~3_combout $end
+$var wire 1 9 inst12~0_combout $end
+$var wire 1 : inst12~_emulated_q $end
+$var wire 1 ; inst12~2_combout $end
+$var wire 1 < A1~input_o $end
+$var wire 1 = inst13~0_combout $end
+$var wire 1 > A2~inputclkctrl_outclk $end
+$var wire 1 ? inst13~q $end
+$var wire 1 @ inst14~0_combout $end
+$var wire 1 A inst14~q $end
+$var wire 1 B inst18~0_combout $end
+$var wire 1 C inst18~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+0#
+1$
+x%
+0&
+0'
+0(
+0)
+1*
+x+
+1,
+1-
+1.
+x/
+00
+01
+02
+13
+14
+x5
+06
+07
+x8
+09
+0:
+x;
+1<
+x=
+1>
+0?
+0@
+0A
+0B
+0C
+$end
+#31250
+1#
+16
+17
+#62500
+0#
+06
+07
+x:
+x?
+x0
+x&
+x@
+#93750
+1#
+16
+17
+#125000
+0#
+06
+07
+xA
+x1
+x'
+xB
+#156250
+1#
+16
+17
+#187500
+0#
+06
+07
+xC
+x2
+x(
+#218750
+1#
+16
+17
+#250000
+0#
+06
+07
+#281250
+1#
+16
+17
+#312500
+0#
+06
+07
+#343750
+1#
+16
+17
+#375000
+0#
+06
+07
+#406250
+1#
+16
+17
+#437500
+0#
+06
+07
+#468750
+1#
+16
+17
+#500000
+0#
+06
+07
+#531250
+1#
+16
+17
+#562500
+0#
+06
+07
+#593750
+1#
+16
+17
+#625000
+0#
+06
+07
+#656250
+1#
+16
+17
+#687500
+0#
+06
+07
+#718750
+1#
+16
+17
+#750000
+0#
+06
+07
+#781250
+1#
+16
+17
+#812500
+0#
+06
+07
+#843750
+1#
+16
+17
+#875000
+0#
+06
+07
+#906250
+1#
+16
+17
+#937500
+0#
+06
+07
+#968750
+1#
+16
+17
+#1000000

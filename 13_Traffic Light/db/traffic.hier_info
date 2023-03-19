@@ -1,0 +1,16 @@
+|traffic
+C => always3.IN1
+C => always3.IN1
+clock => count[0].CLK
+clock => count[1].CLK
+clock => count[2].CLK
+clock => PS~1.DATAIN
+reset => ~NO_FANOUT~
+HG <= HG.DB_MAX_OUTPUT_PORT_TYPE
+HY <= HY.DB_MAX_OUTPUT_PORT_TYPE
+HR <= HR.DB_MAX_OUTPUT_PORT_TYPE
+FG <= FG.DB_MAX_OUTPUT_PORT_TYPE
+FY <= FY.DB_MAX_OUTPUT_PORT_TYPE
+FR <= HR.DB_MAX_OUTPUT_PORT_TYPE
+
+

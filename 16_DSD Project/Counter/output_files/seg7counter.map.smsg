@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at seg7counter.v(10): always construct contains both blocking and non-blocking assignments File: D:/Quartus_Project/16_DSD Project/Counter/seg7counter.v Line: 10

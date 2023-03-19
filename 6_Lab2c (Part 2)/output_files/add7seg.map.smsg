@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at add7seg.v(6): object "D0" differs only in case from object "d0" in the same scope File: D:/Quartus_Project/6_Lab2c (Part 2)/add7seg.v Line: 6
+Info (10281): Verilog HDL Declaration information at add7seg.v(6): object "D1" differs only in case from object "d1" in the same scope File: D:/Quartus_Project/6_Lab2c (Part 2)/add7seg.v Line: 6

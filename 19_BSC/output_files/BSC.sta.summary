@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'UpdateDR'
+Slack : -0.097
+TNS   : -0.175
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDR'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDR'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'UpdateDR'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDR'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UpdateDR'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Setup 'UpdateDR'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDR'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDR'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'UpdateDR'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDR'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UpdateDR'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Setup 'UpdateDR'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDR'
+Slack : 0.481
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDR'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'UpdateDR'
+Slack : 0.231
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDR'
+Slack : -3.000
+TNS   : -11.504
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UpdateDR'
+Slack : -3.000
+TNS   : -11.504
+
+------------------------------------------------------------

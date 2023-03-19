@@ -1,0 +1,19 @@
+//BSC Circuit
+module BSC(Mode, ShiftDR, IN, SI, SO, ClockDR, UpdateDR, OUT);
+
+parameter n=8; 
+
+input [n-1:0]Mode, ShiftDR, IN, SI, ClockDR, UpdateDR;
+output [n-1:0]SO, OUT;
+
+//MUX1
+always @(
+
+//DFF1
+
+
+//DFF2
+
+
+//MUX2
+

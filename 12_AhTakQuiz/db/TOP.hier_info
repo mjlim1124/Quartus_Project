@@ -1,0 +1,46 @@
+|TOP
+In1[0] => In1[0].IN2
+In1[1] => In1[1].IN2
+In1[2] => In1[2].IN2
+In1[3] => In1[3].IN2
+In2[0] => In2[0].IN2
+In2[1] => In2[1].IN2
+In2[2] => In2[2].IN2
+In2[3] => In2[3].IN2
+Out[0] <= mux4bit:comb_4.port3
+Out[1] <= mux4bit:comb_4.port3
+Out[2] <= mux4bit:comb_4.port3
+Out[3] <= mux4bit:comb_4.port3
+
+
+|TOP|comp4bit:comb_3
+A[0] => LessThan0.IN4
+A[1] => LessThan0.IN3
+A[2] => LessThan0.IN2
+A[3] => LessThan0.IN1
+B[0] => LessThan0.IN8
+B[1] => LessThan0.IN7
+B[2] => LessThan0.IN6
+B[3] => LessThan0.IN5
+GT <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|mux4bit:comb_4
+I1[0] => Y.DATAB
+I1[1] => Y.DATAB
+I1[2] => Y.DATAB
+I1[3] => Y.DATAB
+I0[0] => Y.DATAA
+I0[1] => Y.DATAA
+I0[2] => Y.DATAA
+I0[3] => Y.DATAA
+SEL => Y.OUTPUTSELECT
+SEL => Y.OUTPUTSELECT
+SEL => Y.OUTPUTSELECT
+SEL => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

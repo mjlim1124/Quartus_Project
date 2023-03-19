@@ -1,0 +1,14 @@
+module Mux5to1(s2, s1, s0, u, v, x, y, z, m);
+input u, v, x, y, z, s2, s1, s0;
+output reg m;
+
+always @(*)
+	case (s2, s1, s0)
+		3'b000: m = u;
+		3'b001: m = v;
+		3'b010: m = x;
+		3'b011: m = y;
+		3'b100: m = z;
+		default: m = 0;
+	endcase
+endmodule

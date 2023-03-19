@@ -1,0 +1,5 @@
+module revision(a,b,f);
+
+xor (F, a, b);
+
+endmodule

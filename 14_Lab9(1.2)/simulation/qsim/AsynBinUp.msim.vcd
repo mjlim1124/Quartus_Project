@@ -1,0 +1,253 @@
+$comment
+	File created using the following command:
+		vcd file AsynBinUp.msim.vcd -direction
+$end
+$date
+	Sun Jan 16 19:49:15 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module AsynBinUp_vlg_vec_tst $end
+$var reg 1 ! A2 $end
+$var wire 1 " F1 $end
+$var wire 1 # F2 $end
+$var wire 1 $ F3 $end
+$var wire 1 % F4 $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , F1~output_o $end
+$var wire 1 - F2~output_o $end
+$var wire 1 . F3~output_o $end
+$var wire 1 / F4~output_o $end
+$var wire 1 0 A2~input_o $end
+$var wire 1 1 inst~0_combout $end
+$var wire 1 2 inst~feeder_combout $end
+$var wire 1 3 inst~q $end
+$var wire 1 4 inst~clkctrl_outclk $end
+$var wire 1 5 inst2~0_combout $end
+$var wire 1 6 inst2~q $end
+$var wire 1 7 inst3~0_combout $end
+$var wire 1 8 inst3~feeder_combout $end
+$var wire 1 9 inst3~q $end
+$var wire 1 : inst1~0_combout $end
+$var wire 1 ; inst1~feeder_combout $end
+$var wire 1 < inst1~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+11
+12
+03
+04
+15
+06
+07
+08
+09
+1:
+1;
+0<
+$end
+#500000
+1!
+10
+#1000000
+0!
+00
+13
+14
+1,
+01
+1"
+02
+#1500000
+1!
+10
+#2000000
+0!
+00
+03
+04
+0,
+11
+0"
+12
+1<
+1-
+0:
+1#
+0;
+#2500000
+1!
+10
+#3000000
+0!
+00
+13
+14
+1,
+01
+1"
+02
+#3500000
+1!
+10
+#4000000
+0!
+00
+03
+04
+0,
+11
+0"
+12
+0<
+0-
+1:
+0#
+1;
+16
+1.
+1$
+05
+#4500000
+1!
+10
+#5000000
+0!
+00
+13
+14
+1,
+01
+1"
+02
+#5500000
+1!
+10
+#6000000
+0!
+00
+03
+04
+0,
+11
+0"
+12
+1<
+1-
+0:
+17
+1#
+0;
+18
+#6500000
+1!
+10
+#7000000
+0!
+00
+13
+14
+1,
+01
+1"
+02
+#7500000
+1!
+10
+#8000000
+0!
+00
+03
+04
+0,
+11
+0"
+12
+19
+0<
+0-
+1/
+07
+1%
+0#
+08
+06
+0.
+0$
+15
+#8500000
+1!
+10
+#9000000
+0!
+00
+13
+14
+1,
+01
+1"
+02
+#9500000
+1!
+10
+#10000000
+0!
+00
+03
+04
+0,
+11
+0"
+12
+09
+0/
+1:
+0%
+1;
+#10500000
+1!
+10
+#11000000
+0!
+00
+13
+14
+1,
+01
+1"
+02
+#11500000
+1!
+10
+#12000000

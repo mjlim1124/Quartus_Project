@@ -1,0 +1,34 @@
+|ALU8to1
+sel[0] => Mux0.IN10
+sel[0] => Mux1.IN10
+sel[0] => Mux2.IN10
+sel[1] => Mux0.IN9
+sel[1] => Mux1.IN9
+sel[1] => Mux2.IN9
+sel[2] => Mux0.IN8
+sel[2] => Mux1.IN8
+sel[2] => Mux2.IN8
+a => y.IN0
+a => y.IN0
+a => y.IN0
+a => Add1.IN2
+a => Add3.IN1
+b => y.IN1
+b => y.IN1
+b => y.IN1
+b => Add0.IN2
+b => Add3.IN2
+b => Add1.IN1
+o[0] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[1] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[2] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[3] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[4] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[5] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+o[7] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+cin => Add2.IN4
+cin => Add4.IN4
+cout << cout$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

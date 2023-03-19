@@ -1,0 +1,8 @@
+module cprt(a, b, z);
+
+input [3:0]a, b;
+output z;
+
+assign z = ( a<=b ? 0 : 1); //If a<=b, z = 0 & vice versa
+
+endmodule

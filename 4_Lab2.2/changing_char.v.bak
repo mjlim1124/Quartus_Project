@@ -1,0 +1,50 @@
+//DSD Lab Exercise 2 Part 2
+
+//------------Mux Module--------------------
+module Mux5to1(s2, s1, s0, u, v, x, y, z, m);
+input u, v, x, y, z, s2, s1, s0;
+output reg m;
+
+always @(*)
+	case (s2, s1, s0)
+		3'b000: m = u;
+		3'b001: m = v;
+		3'b010: m = x;
+		3'b011: m = y;
+		3'b100: m = z;
+		default: m = 0;
+	endcase
+endmodule
+
+/*
+
+//------------Decoder Module----------------
+module Dec_7_Seg(c, S);
+
+input [2:0]c;
+output reg [0:6]S;
+ always @(c, S)
+	case (c)
+		3'b000:  S=7'b0110111;
+		3'b001:  S=7'b1001111;
+		3'b010:  S=7'b0001110;
+		3'b011:  S=7'b1111110;
+		default: S=7'b0000000;
+	 endcase
+endmodule
+//---------------------------------------------------------------------------------
+module changing_char (sel, char1, char2, char3, char4, disp);
+
+input [2:0]sel;
+input [2:0]char0a, char0b, char0c, char0d, char0e,
+           char1a, char1b, char1c, char1d, char1e,
+			  char2a, char2b, char2c, char2d, char2e,
+			  char3a, char3b, char3c, char3d, char3e,
+			  char4a, char4b, char4c, char4d, char4e;
+input [6:0]disp0, disp1, disp2, disp3, disp4;//output of 7-seg dec
+
+wire[2:0]M1, M2, M3, M4, M5;
+
+endmodule
+
+*/

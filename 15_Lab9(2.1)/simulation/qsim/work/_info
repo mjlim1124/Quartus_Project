@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus_Project/14_Lab9(1)/simulation/qsim
+vAsynBinUp
+Z0 !s110 1642344413
+!i10b 1
+!s100 cePNF1HEQ3PJYTzUFgC8=1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I06dP5AK_R20hI6U?<BWfD3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Quartus_Project/15_Lab9(2.1)/simulation/qsim
+Z4 w1642344411
+Z5 8AsynBinUp.vo
+Z6 FAsynBinUp.vo
+!i122 105
+L0 32 408
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1642344413.000000
+Z9 !s107 AsynBinUp.vo|
+Z10 !s90 -work|work|AsynBinUp.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@asyn@bin@up
+vAsynBinUp_vlg_vec_tst
+R0
+!i10b 1
+!s100 P_Vz>fNUEMQ2m33[z7YVg1
+R1
+IUE_1E>K04l@?]Qeb;;PMl2
+R2
+R3
+w1642344410
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 106
+L0 30 63
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@asyn@bin@up_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 PWd8aejdJlLLjH>X7?KXH0
+R1
+I;JXFLAK0U<5ZR2NIF040e1
+R2
+R3
+R4
+R5
+R6
+!i122 105
+L0 441 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

@@ -1,0 +1,15 @@
+//counter & 7segment Decoder
+module seg7counter(reset, crash, dodge, out);
+
+input crash, dodge;
+output [7:0]out;
+
+integer [3:0]i=0;
+
+always @(crash, dodge)
+begin
+	if(i <= 4'd9 && i >= 4'd0)
+		if(crash)
+		
+		
+end

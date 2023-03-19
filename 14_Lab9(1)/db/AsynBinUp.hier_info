@@ -1,0 +1,17 @@
+|AsynBinUp
+L1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+SW2 => inst.PRESET
+SW0 => inst.ACLR
+SW0 => inst11.ACLR
+SW0 => inst15.ACLR
+SW0 => inst20.ACLR
+B1 => inst27.IN0
+L2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+SW1 => inst26.IN0
+SW1 => inst7.IN0
+SW1 => inst12.IN0
+SW1 => inst17.IN0
+L3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+L4 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,21 @@
+|OR4to1
+En => En.IN1
+s[0] => s[0].IN1
+s[1] => s[1].IN1
+w[0] => a0.IN1
+w[1] => a1.IN1
+w[2] => a2.IN1
+w[3] => a3.IN1
+f << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|OR4to1|Dec2to4:comb_3
+en => Decoder0.IN0
+S[0] => Decoder0.IN2
+S[1] => Decoder0.IN1
+Y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+//DSD Lab Exercise 1 Part 2
+module Mux5to1(u, v, w, x, y, a, b, c, m);
+
+output a, b, c, m;
+input s0, s1, s2, u, v, w, x, y, a, b, c;
+
+assign a = ~s0 & u | s0 & v;
+assign b = ~s0 & w | s0 & x;
+assign c = ~s1 & a | s1 & b;
+assign m = ~s2 & c | s2 & y;
+
+
+
+endmodule

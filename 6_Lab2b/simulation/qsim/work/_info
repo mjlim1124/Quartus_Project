@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus_Project/6_Lab2b/simulation/qsim
+vadd7seg
+Z1 !s110 1636697131
+!i10b 1
+!s100 30lXc:<U6CRz:RBb>0^Oe0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;I]nFYhAZOoZWl[XgT<MO3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1636697129
+Z5 8add7seg.vo
+Z6 Fadd7seg.vo
+!i122 66
+L0 32 759
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1636697131.000000
+Z9 !s107 add7seg.vo|
+Z10 !s90 -work|work|add7seg.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vadd7seg_vlg_vec_tst
+R1
+!i10b 1
+!s100 @_1LS]I`UMeZ0djZg`PYE2
+R2
+I^GSknhYceNlOk5BWVLbBJ3
+R3
+R0
+w1636697128
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 67
+L0 30 95
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 Td^K;H84_jLneT9d;KAf@3
+R2
+ISO@EEPbMS61KozFjGR<^N3
+R3
+R0
+R4
+R5
+R6
+!i122 66
+L0 792 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

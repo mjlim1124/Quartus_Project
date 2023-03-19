@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/Quartus_Project/0_Test/Test.v
+source_file = 1, D:/Quartus_Project/0_Test/db/Test.cbx.xml
+design_name = Test
+instance = comp, \f~output , f~output, Test, 1
+instance = comp, \m1~input , m1~input, Test, 1
+instance = comp, \s1~input , s1~input, Test, 1
+instance = comp, \m3~input , m3~input, Test, 1
+instance = comp, \s0~input , s0~input, Test, 1
+instance = comp, \m2~input , m2~input, Test, 1
+instance = comp, \f~0 , f~0, Test, 1
+instance = comp, \m0~input , m0~input, Test, 1
+instance = comp, \f~1 , f~1, Test, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

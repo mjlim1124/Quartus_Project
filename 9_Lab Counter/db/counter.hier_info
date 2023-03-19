@@ -1,0 +1,15 @@
+|counter
+s => Q.OUTPUTSELECT
+s => Q.OUTPUTSELECT
+s => Q.OUTPUTSELECT
+rst => Q.OUTPUTSELECT
+rst => Q.OUTPUTSELECT
+rst => Q.OUTPUTSELECT
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

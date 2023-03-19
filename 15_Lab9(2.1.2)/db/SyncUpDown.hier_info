@@ -1,0 +1,17 @@
+|SyncUpDown
+F1 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+B2 => inst12.PRESET
+A2 => inst12.ACLR
+A2 => inst13.ACLR
+A2 => inst14.ACLR
+A2 => inst18.ACLR
+B1 => inst20.IN0
+F2 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst.IN0
+A1 => inst5.IN0
+A1 => inst8.IN0
+A1 => inst11.IN0
+F3 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+F4 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+
+

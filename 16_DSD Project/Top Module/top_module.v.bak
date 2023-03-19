@@ -1,0 +1,69 @@
+//Full Mario & Goomba Game
+module top_module (S, R, clk, mar_reg, gom_reg, score);
+
+input S, R, clk;
+
+output reg[4:0]mar_reg, gom_reg;
+output reg[6:0]score;
+
+reg[3:0] NS, PS;
+reg[4:0]mar_ldval, gom_ldval;
+
+parameter
+s0  = 4'd0,
+s1  =	4'd1,
+s2  = 4'd2,
+s3  = 4'd3,
+s4  = 4'd4,
+s5  = 4'd5,
+s7  = 4'd7,
+s8  = 4'd8,
+s9  = 4'd9,
+s12 = 4'd12,
+s13 = 4'd13,
+s14 = 4'd14;
+
+//Next State Block
+always @(PS, S, R)
+begin
+case(PS)
+s0  : if (S) NS = s1; else NS = s0;
+s1  : if (R) NS = s2; else NS = s7;
+s2  : if (R) NS = s3; else NS = s8;
+s3  : if (R) NS = s4; else NS = s9;
+s4  : if (R) NS = s5; else NS = s14;
+s5  : NS = s0;
+s7  : if (R) NS = s8; else NS = s12;
+s8  : if (R) NS = s9; else NS = s13;
+s9  : NS = s0;
+s12 : NS = s0;
+s13 : NS = s0;
+s14 : NS = s0;
+endcase
+end
+
+//Memory Block (Flip Flop)
+always @(posedge clk)
+begin
+PS <= NS;
+end
+
+//Present State Block
+always @(PS)
+begin
+case (PS)
+s0  : mar_ldval=5'b00000; gom_ldval=5'b00000;
+s1  : mar_ldval=5'b10000; gom_ldval=5'b00001;
+s2  : mar_ldval=5'b10000; gom_ldval=5'b00010;
+s3  : mar_ldval=5'b10000; gom_ldval=5'b00100;
+s4  : mar_ldval=5'b10000; gom_ldval=5'b01000;
+s5  : mar_ldval=5'b10000; gom_ldval=5'b10000;
+s7  : mar_ldval=5'b01000; gom_ldval=5'b00010;
+s8  : mar_ldval=5'b01000; gom_ldval=5'b00100;
+s9  : mar_ldval=5'b01000; gom_ldval=5'b01000;
+s12 : mar_ldval=5'b00100; gom_ldval=5'b00100;
+s13 : mar_ldval=5'b00100; gom_ldval=5'b01000;
+s14 : mar_ldval=5'b01000; gom_ldval=5'b10000;
+endcase
+end
+
